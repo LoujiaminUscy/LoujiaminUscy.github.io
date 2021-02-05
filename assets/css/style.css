@@ -1,0 +1,696 @@
+/*
+Template Name: A Creative Agency
+*/
+
+
+/* ==========
+CSS Index
+
+*Base CSS
+*Header CSS
+*Header Menu CSS
+*Header Right CSS
+*Hero CSS
+*Portfolio CSS
+*Service CSS
+*Contract CSS
+*Contract Map CSS
+*Contract form CSS
+*Contract Right box form CSS
+*About CSS
+*Subscribe CSS
+*Subscribe content CSS
+*Subscribe Form CSS
+*Footer CSS
+*Footer Menu CSS
+*Portfolio-details img CSS
+*Portfolio-details content CSS
+
+============= */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/* ==========
+Base CSS
+============= */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { 
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+input:focus, textarea:focus, button:focus{
+    outline:none;
+} 
+
+a:hover { text-decoration: none; }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.pt-90{
+    padding-top: 90px;
+}
+.pb-90{
+    padding-bottom: 90px;
+}
+
+.mt-90{
+    margin-top: 90px;
+}
+.mb-90{
+    margin-bottom: 90px;
+}
+
+.submit-btn {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #2176FF;
+    color: #fff;
+    padding: 9px 24px;
+    right: 83px;
+    position: absolute;
+    top: 7px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.submit-btn:hover, .contact-form .contact-btn:hover {
+    background: #FFC704;
+    color: #2176FF;
+}
+
+.video-btn {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+    line-height: 75px;
+    top: 50%;
+    margin-top: -33px;
+    right: 50%;
+    margin-right: -46px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    border:1px solid #fff;
+}
+.video-btn i.fa {
+    font-size: 25px;
+    color: #0015FF;
+    margin-left: 8px;
+}
+
+.video-btn:hover {
+    background: #FFC704;
+    border: 1px solid #FFC704;
+}
+.video-btn:hover i.fa {
+    color: #ddd;
+}
+
+/* ==========
+Header CSS
+============= */
+
+.header-area {text-transform: uppercase;background-color: #FFFFFF;padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* ==========
+Header Menu CSS
+============= */
+.slicknav_menu{
+    display: none
+}
+.header-menu ul {
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.header-menu li {
+    display: inline-block;
+}
+
+.header-menu li a {
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    color: #231F20;
+    padding: 12px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+/* ==========
+Header Right CSS
+============= */
+
+.header-social-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.header-social-links li {
+    display: inline-block;
+}
+
+.header-social-links li a {
+    color: #fff;
+    background-color: #81879E;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-top: 12px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.header-social-links li:hover a {
+    background-color: #2176FF;
+}
+
+.header-menu li a:hover {
+    color: #4889FF;
+}
+
+
+
+
+/* ==========
+Hero CSS
+============= */
+.single-slide {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.single-slide{
+    width: auto !important;
+}
+
+.hero-slide .owl-dot {
+    background: transparent;
+    border: 1px solid #fff;
+    height: 8px;
+    width: 29px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.hero-slide {
+}
+
+.hero-slide.owl-carousel .owl-dots {
+    position: absolute;
+    right: 50%;
+    bottom: 30px;
+    margin-right: -50px;
+}
+
+.hero-slide .owl-dot.active {
+    background: #fff;
+}
+
+.hero-content-wrapper {
+    top: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -50px;
+}
+
+.hero-content-wrapper h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.5;
+    positi: relative;
+    text-transform: uppercase;
+}
+
+/* ==========
+Portfolio CSS
+============= */
+.img-bottom-margin{
+    margin-top: 30px;
+
+}
+
+.product-img-height-3 {height: 467px;}
+.product-img-height-13 {height: 368px;}
+
+.single-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.single-img:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.single-img img {
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.single-img:before {
+    height: 100%;
+    width: 100%;
+    background: #ddd;
+    position: absolute;
+    content: "";
+    opacity: .2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+
+/* Start service page css */
+
+
+/* ==========
+Service CSS
+============= */
+
+
+.service-hero .hero-content-wrapper {
+    top: 42%;
+    margin-top: -42px;
+}
+
+.service-box {
+    padding: 50px;
+    box-shadow: 5px 5px 9px 14px #E1EBFF;
+}
+
+
+
+.service-btn {
+    top: auto;
+    right: auto;
+    bottom: -98px;
+    font-size: 15px;
+    padding: 17px;
+}
+
+.service-content h3 {
+    color: #231F20;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: -43px;
+}
+
+.service-content p {
+    color: #231F20;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.adjust-h {
+    position: absolute;
+    color: #fff;
+    top: 21%;
+    font-size: 49px;
+    font-weight: 800;
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    text-transform: uppercase;
+}
+
+.service-left {
+    background-color: #EBF2FF;
+    padding: 157px 17px;
+    margin-right: -31px;
+}
+
+.service-content {
+    position: relative;
+}
+
+
+
+.servici-img {
+    position: relative;
+}
+
+.service-subscrib{
+    margin-top: 90px
+}
+
+.service-left-2 {
+    margin-right: 0;
+    margin-left: -31px;
+    padding-left: 22px;
+}
+
+
+
+
+/* Start contact page css */
+
+/* ==========
+Contract CSS
+============= */
+
+
+.contact-box {
+    background-color: #FAFCFF;
+    box-shadow: 5px 5px 9px 14px #E1EBFF;
+}
+
+
+/* ==========
+Contract Map CSS
+============= */
+.map-img {
+    position: relative;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.map-point {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 42%;
+    top: 43%;
+}
+
+
+
+/* ==========
+Contract form CSS
+============= */
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    border: 1px solid #F7F7F9;
+    padding: 12px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    color: #7B7D82;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.contact-form {
+    padding: 30px;
+}
+
+.contact-form input:focus {
+    border: 1px solid #ddd;
+}
+
+.contact-form .contact-btn {
+    width: auto;
+    background-color: #2176FF;
+    color: #fff;
+    padding: 10px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    border: none;
+}
+
+
+.contact-form input:focus {
+    border: 1px solid #ddd;
+}
+
+.contact-form input[type=submit] {
+    width: auto;
+    background-color: #2176FF;
+    color: #fff;
+    padding: 10px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.contact-form input[type=submit]:hover {
+    color: #2176FF;
+    background: #FFC704;
+}
+
+/* ==========
+Contract Right box form CSS
+============= */
+.number-centent i.fa {
+    color: #72A8FF;
+    font-size: 27px;
+    margin-bottom: 0px;
+    -webkit-transition: all 2s ease 0s;
+    transition: all 2s ease 0s;
+}
+
+.contact-text {
+    color: #231F20;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -2px;
+    -webkit-transition: all 2s ease 0s;
+    transition: all 2s ease 0s;
+}
+
+.single-number-box {
+    background-color: #Fff;
+    border: 1px solid #F8F8F9;
+    padding-top: 27px;
+    padding-bottom: 18px;
+    margin-bottom: 20px;
+    -webkit-transition: all 2s ease 0s;
+    transition: all 2s ease 0s;
+}
+
+.single-number-box:hover  {
+    background-color: #2176FF;
+}
+.single-number-box:hover .number-centent i.fa{
+    color: #fff;
+}
+.single-number-box:hover .contact-text{
+    color: #fff;
+} 
+.contact-number {
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+/* Start about pages css */
+/* ==========
+About CSS
+============= */
+.about-wrapper {
+    background-color: #fff;
+    margin-right: 0;
+}
+
+.about-h {
+    color: #F3F3F3;
+    right: 25px;
+    top: 30%;
+}
+
+.about-content {
+    margin-top: 50px;
+}
+
+.about-area {
+    margin-top: 90px;
+}
+
+.about-h-right {
+    right: auto;
+}
+
+
+
+
+/* ==========
+Subscribe CSS
+============= */
+.sub-wrapper {
+    background: #F2F2F2;
+    margin: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* ==========
+Subscribe content CSS
+============= */
+
+.subscrib-content {
+    text-align: right;
+}
+
+.subscrib-content h1 {
+    color: #231F20;
+    font-size: 42px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* ==========
+Subscribe Form CSS
+============= */
+
+.form-submit {
+    background: #fff;
+    width: 92%;
+    padding: 16px 10px;
+    position: relative;
+    border: 0px solid #fff;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.form-submit input[type=email] {border: 0;width: 72%;}
+
+
+
+
+
+/* ==========
+Footer CSS
+============= */
+.footer-area {
+    margin-top: 20px;
+}
+.copyright p a {color: #231F20;font-size: 16px;font-weight: 400;}
+.copyright {
+    margin-top: 11px;
+}
+
+.footer-menu li a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: -12px;
+    color: #231F20;
+}
+
+/* ==========
+Footer Menu CSS
+============= */
+
+.footer-menu li:hover a {
+    color: #231F20;
+}
+
+
+
+/* Portfolio-details-page-css */
+
+/* ==========
+Portfolio-details img CSS
+============= */
+
+.details-img-2 {
+    margin-top: 45px;
+    margin-bottom: 48px;
+}
+
+.details-img {
+    overflow: hidden;
+    padding: 33px;
+    background: #EEEEEE;
+}
+
+
+/* ==========
+Portfolio-details content CSS
+============= */
+.left-content h3 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #111F37;
+}
+
+.left-content p, .right-content p {
+    font-size: 15px;
+    color: #111F37;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.details-btn {
+    position: absolute;
+    left: 0;
+    right: auto;
+    top: auto;
+    background: #1752EA;
+    padding: 12px 18px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3px;
+}
+
+.left-content {
+    position: relative;
+}
+
+.right-content {
+    margin-top: 51px;
+}
+
+.content-2 {
+    margin-top: 28px;
+}
+
+.last-right-content {
+    border-bottom: 1px solid #ABADB3;
+    display: inline;
+}
+
+.details-content-area {
+    padding-bottom: 50px;
+}
