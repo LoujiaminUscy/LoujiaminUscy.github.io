@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>运营分析</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href="css_d/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- <link href="css/slimmenu.css" rel="stylesheet" media="screen"> -->
+<script src="js_d/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div class="group_2" id="Portfolio">
+	<h3 class="heading">运营分析</h3>
+	<div class="group_2_items">
+		<div class="wrap">
+			<div id="owl-demo1" class="owl-carousel">
+				<div class="item" >
+					<div class="carousel">
+						<div class="group_2_img1"> <img src="images/map.gif" alt=""> </div>
+						<div class="group_2_text2">
+							<div class="desc">
+								<h3>问题界定</h3>
+								<h4>公园安保评估：<br/>依据实际在馆人数和理想在馆人数的差异做出判断</h4>
+							</div>
+							<div class="desc">
+								<h3>问题拆解</h3>
+								<h4>1. 提取馆内各时间段人流量数据<br/>2. 绘制人流时空图</h4>
+							</div>
+							<div class="desc">
+								<h3>验证与建议</h3>
+								<h4>周日闭馆时，仍有3人留在馆内<br/>结论：公园安保不当<br/>建议：加强闭馆核查</h4>
+							</div>
+							<div class="button_2"> <a href="index.html">返回主页</a> </div>
+						</div>
+						<div class="clear"> </div>
+						<!-- <div class="brows_button_3"> <a href="index.html">Browser portfolio</a> </div> -->
+					</div>
+				</div>
+				<div class="item">
+					<div class="carousel">
+						<div class="group_2_img1"> <img src="images/net.gif" alt=""> </div>
+						<div class="group_2_text2">
+							<div class="desc">
+								<h3>问题界定</h3>
+								<h4>游客通讯分析：<br/>依据点对点分布图统计</h4>
+							</div>
+							<div class="desc">
+								<h3>问题拆解</h3>
+								<h4>1.构建图2.数据提取3.驱动模型</h4>
+							</div>
+							<div class="desc">
+								<h3>结果呈现</h3>
+								<h4>点击结点->高亮相关结点->查看通讯线条->明确通讯路径</h4>
+							</div>
+							<div class="button_2"> <a href="index.html">返回主页</a> </div>
+						</div>
+						<div class="clear"> </div>
+						<!-- <div class="brows_button_3"> <a href="index.html">Browser portfolio</a> </div> -->
+					</div>
+				</div>
+				<div class="item">
+					<div class="carousel">
+						<div class="group_2_img1"> <img src="images/track.gif" alt=""> </div>
+						<div class="group_2_text2">
+							<div class="desc">
+								<h3>问题描述</h3>
+								<h4>确定无ID游客的轨迹</h4>
+							</div>
+							<div class="desc">
+								<h3>问题拆解</h3>
+								<h4>根据该游客8名同伴的轨迹反推</h4>
+							</div>
+							<div class="desc">
+								<h3>结果呈现</h3>
+								<h4>先用python筛选数据，再将轨迹可视化描述</h4>
+							</div>
+							
+							<div class="button_2"> <a href="index.html">返回主页</a> </div>
+						</div>
+						<div class="clear"> </div>
+						<!-- <div class="brows_button_3"> <a href="index.html">Browser portfolio</a> </div> -->
+					</div>
+				</div>
+				<div class="item">
+					<div class="carousel">
+						<div class="group_2_img1"> <img src="images/rain.gif" alt=""> </div>
+						<div class="group_2_text2">
+							<div class="desc">
+								<h3>问题界定</h3>
+								<h4>公园场馆分布改进：<br/>分析现有场馆各时段人流量，先找不足，再做整改</h4>
+							</div>
+							<div class="desc">
+								<h3>问题拆解</h3>
+								<h4>热力图反映客流：根据颜色深浅判断人流情况</h4>
+							</div>
+							<div class="desc">
+								<h3>建议与提升</h3>
+								<h4>鬼屋人流全天密集，但全场惊悚类项目仅1项，建议核算成本后扩建鬼屋或增设惊悚类新项目</h4>
+							</div>
+							<div class="button_2"> <a href="index.html">返回主页</a> </div>
+						</div>
+						<div class="clear"> </div>
+						<!-- <div class="brows_button_3"> <a href="index.html">Browser portfolio</a> </div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Owl Carousel Assets -->
+<link href="css_d/owl.carousel.css" rel="stylesheet">
+<!-- Owl Carousel Assets --> 
+<!-- Prettify --> 
+<script src="js_d/owl.carousel.js"></script> 
+<script>
+		    $(document).ready(function() {
+		
+		      $("#owl-demo").owlCarousel({
+		        items : 1,
+		        lazyLoad : true,
+		        autoPlay : true,
+		        navigation : true,
+			    navigationText : ["",""],
+			    rewindNav :true,
+			    scrollPerPage :true,
+			    pagination : true,
+    			paginationNumbers: false,
+		      });
+		
+		    });
+		    $(document).ready(function() {
+		
+		      $("#owl-demo1").owlCarousel({
+		        items : 1,
+		        lazyLoad : true,
+		        autoPlay : true,
+		        navigation : true,
+			    navigationText : ["",""],
+			    rewindNav : true,
+			    scrollPerPage :true,
+			    pagination : false,
+    			paginationNumbers: false,
+		      });
+		
+		    });
+		    $(document).ready(function() {
+		
+		      $("#owl-demo2").owlCarousel({
+		        items : 1,
+		        lazyLoad : true,
+		        autoPlay : true,
+		        navigation : false,
+			    navigationText : ["",""],
+			    rewindNav : false,
+			    scrollPerPage :true,
+			    pagination : false,
+    			paginationNumbers: false,
+		      });
+		
+		    });
+		    </script> 
+<!-- //Owl Carousel Assets -->
+
+
+	<!-- scroll_top_btn --> 
+	<script type="text/javascript" src="js_d/move-top.js"></script> 
+	<script type="text/javascript" src="js_d/easing.js"></script> 
+	<script type="text/javascript">
+			$(document).ready(function() {
+			
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+		 		};
+				
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script> 
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script> 
+	<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a> </div>
+</body>
+</html>
